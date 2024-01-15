@@ -119,6 +119,50 @@ main{
   color: #FF900E;
 }
 
+
+/* Feature section style */
+
+.features-section{
+  display: flex;
+  margin-top:130px ;
+  gap: 100px;
+}
+
+.feature-content .card{
+  padding: 30px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0,.06 );
+}
+
+.features-section .section-title{
+  border-left: 5px solid orange;
+  padding: 20px;
+}
+
+.ten-years-batch{
+  border-radius: 8px;
+  background-color: #FF900E;
+  color: white;
+  width: 342px;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  bottom: 150px;
+}
+.ten-years-batch h2{
+  font-size: 4rem;
+  margin: 0;
+}
+
+.ten-years-batch p{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+
 .facts-card-container{
   display: flex;
   justify-content: space-around;
@@ -165,6 +209,12 @@ main{
   width: 165px;
 }
 
+.footer-div{
+  background-color: orange;
+  text-align: center;
+  height: 40px;
+
+}
 
 
 
@@ -192,8 +242,13 @@ main{
     padding: 20px;
   }
 
-  nav , .teams-container, .facts-card-container,.sponsor-img-container{
+  nav , .teams-container, .facts-card-container,.sponsor-img-container,.features-section{
     flex-direction: column;
+  }
+
+  .features-section img{
+    width: 100%;
+    margin: 0;
   }
 
   .teams-img-container{
